@@ -1,0 +1,6 @@
+classIF
+cat1
+if (x = 1) // initialize x as 1
+/* Hello World */
+constant var = "CS 326"
+end;

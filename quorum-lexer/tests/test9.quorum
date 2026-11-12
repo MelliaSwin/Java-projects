@@ -1,0 +1,27 @@
+package Cars
+
+use Engine
+use Tires
+
+class Vehicle
+    action Start
+        check engineReady
+        say "Starting vehicle..."
+    end
+
+end
+
+class SportsCar is Vehicle
+    action inspect
+    text model = "RoadRunner"
+    number fuelLevel = 0.0
+    text status = undefined
+
+    check fuelLevel
+
+    if fuelLevel = 0
+        status = "Out of duel"
+    end
+
+    say "Model: " + model
+    // end here

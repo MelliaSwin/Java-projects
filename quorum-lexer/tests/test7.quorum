@@ -1,0 +1,15 @@
+class NeuralNet
+    action Train
+        number LR = 0.01$$
+        integer epochs = 10
+        integer layer_count = 3
+
+        if LR < 0 or LR > 1@
+            say "invalid learning rate
+        end
+
+        /* rest of this shouldn't output due to unterminated string
+        weight[0] = 0.5
+        weight[1] = 0.8
+
+        // note, about weights...

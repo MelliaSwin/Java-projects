@@ -1,0 +1,10 @@
+public class Lexer {
+    // Defined variables
+    private final String text;
+    private int index;
+
+    // Constructor: that takes in an input string and places in object
+    public Lexer(String text) {
+        this.text = text;
+        this.index = 0; // Position starts at 0
+    }

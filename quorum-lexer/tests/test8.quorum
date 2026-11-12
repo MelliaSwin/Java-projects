@@ -1,0 +1,9 @@
+class CSTokens
+    actin Demo
+        integer students, projects, assignments
+        number accuracy = 0.873.0
+        number loss = 0.3, regularization = 0.001
+
+        data = 1, 2, 3, 4
+        say "Computer science, data, algorithms"
+        .

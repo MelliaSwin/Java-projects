@@ -1,0 +1,15 @@
+class AnimalTest
+  action CheckCat
+    boolean isCat = true
+    boolean isFluffy = false
+    integer age = 3
+
+    if isCat and not isFluffy
+        say "This is a cat"
+    end
+
+    if isCat or age < 2
+        say "Possibly a kitten"
+    end
+  end
+end

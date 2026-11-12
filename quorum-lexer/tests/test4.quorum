@@ -1,0 +1,14 @@
+class Example
+    action checkNumber
+    integer x = 5
+    number y = 10.5
+
+    if ( x < 5 ):
+        say "error"
+    elseif x < 10
+        say "idk"
+    else
+        say "ok"
+    end
+  end
+end
